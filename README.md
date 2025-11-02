@@ -1,118 +1,124 @@
 <p align="center">
-  <img width="80%" src="images/banner-2025.jpg" alt="MLOps Zoomcamp">
+  <img width="80%" src="images/banner-2025.jpg" alt="MLOps Learning Journey">
 </p>
 
 <h1 align="center">
-    <strong>MLOps Zoomcamp: A Free 9-Week Course on Productionizing ML Services</strong>
+    <strong>My MLOps Learning Journey</strong>
 </h1>
 
 <p align="center">
-MLOps (machine learning operations) is a must-know skill for many data professionals. Master the fundamentals of MLOps, from training and experimentation to deployment and monitoring.
+This repository documents my hands-on learning experience with MLOps (Machine Learning Operations), following the DataTalks.Club MLOps Zoomcamp curriculum. It showcases practical implementations from experiment tracking to model deployment and monitoring.
 </p>
 
 <p align="center">
-<a href="https://airtable.com/shrCb8y6eTbPKwSTL"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+<strong>🎯 Learning Progress: Modules 1-3 Complete ✅</strong>
 </p>
 
-<p align="center">
-<a href="https://datatalks.club/slack.html">Join Slack</a> •
-<a href="https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG">#course-mlops-zoomcamp Channel</a> •
-<a href="https://t.me/dtc_courses">Telegram Announcements</a> •
-<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK">Course Playlist</a> •
-<a href="https://datatalks.club/faq/mlops-zoomcamp.html">FAQ</a> •
-<a href="https://ctt.ac/fH67W">Tweet about the Course</a>
-</p>
+## About This Learning Project
 
-## How to Take MLOps Zoomcamp
+This repository represents my practical journey through MLOps concepts and tools. Each module builds upon previous knowledge, creating a comprehensive understanding of machine learning operations in production environments.
 
-### 2025 Cohort
-- **Start Date**: May 5, 2025
-- **Register Here**: [Sign up](https://airtable.com/shrCb8y6eTbPKwSTL)
-- **Stay Updated**: Subscribe to our [Google Calendar](https://calendar.google.com/calendar/?cid=M3Jzbmg0ZDA2aHVsY2M1ZjcyNDJtODNyMTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (Desktop only)
+### 🛠️ Technology Stack
+- **Python** - Core programming language
+- **MLflow** - Experiment tracking and model registry
+- **Docker** - Containerization and environment management
+- **Mage AI** - Workflow orchestration
+- **XGBoost & Scikit-learn** - Machine learning frameworks
+- **Git & GitHub** - Version control and collaboration
 
-### Self-Paced Learning
-All course materials are freely available for independent study. Follow these steps:
-1. Watch the course videos.
-2. Join the [Slack community](https://datatalks.club/slack.html).
-3. Refer to the [FAQ document](https://datatalks.club/faq/mlops-zoomcamp.html) for guidance.
+### 📚 Learning Structure
+Following the DataTalks.Club MLOps Zoomcamp curriculum, this project demonstrates practical implementation of MLOps principles through hands-on exercises and real-world scenarios using the NYC Taxi dataset.
 
-## Syllabus
-The course consists of structured modules, hands-on workshops, and a final project to reinforce your learning. Each module introduces core MLOps concepts and tools.
+## Learning Modules & Progress
 
-### Prerequisites
-To get the most out of this course, you should have prior experience with:
-- Python
-- Docker
-- Command line basics
-- Machine learning (e.g., through [ML Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp))
-- 1+ year of programming experience
+### ✅ [Module 1: Introduction to MLOps](01-intro) - **COMPLETED**
+**What I Learned:**
+- Fundamentals of MLOps and its importance in production ML systems
+- MLOps maturity models and best practices
+- Environment setup with Python virtual environments
+- Hands-on experience with the NYC Taxi dataset for duration prediction
+- Implementation of baseline ML models using XGBoost and scikit-learn
 
-## Modules
+**Key Deliverables:**
+- Jupyter notebook with end-to-end ML pipeline
+- Data preprocessing and feature engineering
+- Model training and evaluation
+- Requirements management with virtual environments
 
-### [Module 1: Introduction](01-intro)
-- What is MLOps?
-- MLOps maturity model
-- NY Taxi dataset (our running example)
-- Why MLOps is essential
-- Course structure & environment setup
-- Homework
+### ✅ [Module 2: Experiment Tracking & Model Management](02-experiment-tracking) - **COMPLETED**
+**What I Learned:**
+- Introduction to experiment tracking and its critical role in ML workflows
+- MLflow implementation for tracking experiments, parameters, and metrics
+- Model serialization, saving, and loading techniques
+- Model registry setup and management for version control
+- Integration of MLflow with existing ML pipelines
 
-### [Module 2: Experiment Tracking & Model Management](02-experiment-tracking)
-- Introduction to experiment tracking
-- MLflow basics
-- Model saving and loading
-- Model registry
-- Hands-on MLflow exercises
-- Homework
+**Key Deliverables:**
+- MLflow server setup with SQLite backend
+- Experiment tracking for model iterations
+- Model registry with versioning and stage management
+- Automated model logging and artifact storage
 
-### [Module 3: Orchestration & ML Pipelines](03-orchestration)
+### ✅ [Module 3: Orchestration & ML Pipelines](03-orchestration) - **COMPLETED**
+**What I Learned:**
+- Workflow orchestration concepts and tools
+- Mage AI platform for building and managing ML pipelines
+- Docker containerization for reproducible environments
+- Pipeline design patterns and best practices
+- Data pipeline automation and scheduling
 
-- Workflow orchestration
-- Homework
+**Key Deliverables:**
+- Dockerized Mage AI environment
+- End-to-end ML pipeline with multiple blocks (data loading, preprocessing, training)
+- Automated workflow execution and monitoring
+- Authentication and security setup for production-ready pipelines
 
-### [Module 4: Model Deployment](04-deployment)
+### 🔄 [Module 4: Model Deployment](04-deployment) - **PLANNED**
+**Learning Goals:**
 - Deployment strategies: online (web, streaming) vs. offline (batch)
-- Deploying with Flask (web service)
+- Web service deployment with Flask
 - Streaming deployment with AWS Kinesis & Lambda
 - Batch scoring for offline processing
-- Homework
+- Production deployment best practices
 
-### [Module 5: Model Monitoring](05-monitoring)
-- Monitoring ML-based services
+### 🔄 [Module 5: Model Monitoring](05-monitoring) - **PLANNED**
+**Learning Goals:**
+- Monitoring ML-based services in production
 - Web service monitoring with Prometheus, Evidently, and Grafana
 - Batch job monitoring with Prefect, MongoDB, and Evidently
-- Homework
+- Data drift and model performance monitoring
 
-### [Module 6: Best Practices](06-best-practices)
-- Unit and integration testing
-- Linting, formatting, and pre-commit hooks
-- CI/CD with GitHub Actions
-- Infrastructure as Code (Terraform)
-- Homework
+### 🔄 [Module 6: Best Practices](06-best-practices) - **PLANNED**
+**Learning Goals:**
+- Unit and integration testing for ML systems
+- Code quality: linting, formatting, and pre-commit hooks
+- CI/CD pipelines with GitHub Actions
+- Infrastructure as Code (IaC) with Terraform
 
-### [Final Project](07-project/)
-- End-to-end project integrating all course concepts
+### 🔄 [Module 7: Final Project](07-project/) - **PLANNED**
+**Learning Goals:**
+- End-to-end project integrating all learned concepts
+- Complete MLOps pipeline from development to production
+- Real-world problem solving with MLOps tools and practices
 
-## Community & Support
+## Learning Resources & Community
 
-### Getting Help on Slack
+This learning project is based on the excellent **MLOps Zoomcamp** by DataTalks.Club. The original course materials and community resources are available at:
 
-Join the [`#course-mlops-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C02R98X7DS9) channel on [DataTalks.Club Slack](https://datatalks.club/slack.html) for discussions, troubleshooting, and networking.
+- 📺 [Course Playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK)
+- 💬 [Slack Community](https://datatalks.club/slack.html) - Join `#course-mlops-zoomcamp` channel
+- 📖 [Course FAQ](https://datatalks.club/faq/mlops-zoomcamp.html)
+- 🗓️ [Course Information](https://airtable.com/shrCb8y6eTbPKwSTL)
 
-To keep discussions organized:
-- Follow [our guidelines](asking-questions.md) when posting questions.
-- Review the [community guidelines](https://datatalks.club/slack/guidelines.html).
-
-## Instructors
-
+### Course Instructors & Credits
 - [Cristian Martinez](https://www.linkedin.com/in/cristian-javier-martinez-09bb7031/)
 - [Alexey Grigorev](https://www.linkedin.com/in/agrigorev/)
 - [Emeli Dral](https://www.linkedin.com/in/emelidral/)
 
 
-## Sponsors & Supporters
+## Acknowledgments
 
-Interested in supporting our community? Reach out to [alexey@datatalks.club](mailto:alexey@datatalks.club).
+Special thanks to **DataTalks.Club** for providing this comprehensive MLOps curriculum and fostering an amazing learning community.
 
 ## About DataTalks.Club
 
