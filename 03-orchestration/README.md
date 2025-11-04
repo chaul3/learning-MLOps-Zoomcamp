@@ -63,11 +63,9 @@ For guidance, you can refer to past cohorts of the course:
 - Mage - 2024
 
 You can also rely on ChatGPT or similar tools. They are very helpful.
-
 ## 3.4 Homework
 
 More information [here](../cohorts/2025/03-orchestration/homework.md).
-
 
 ## Resources
 
